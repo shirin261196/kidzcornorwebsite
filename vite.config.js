@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: { port: 5173 },
-  base: '/kidzcornorwebsite/', // Correct for GitHub Pages
+  base: '', // Ensures correct asset paths
+  server: { port: 5173 }
 
 });
