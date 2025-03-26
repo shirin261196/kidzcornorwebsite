@@ -5,7 +5,5 @@ export default defineConfig({
   plugins: [react()],
   server: { port: 5173 },
   base: '/kidzcornorwebsite/', // Correct for GitHub Pages
-  build: {
-    outDir: 'dist',
-  }
+
 });
